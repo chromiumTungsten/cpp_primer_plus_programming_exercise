@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+setGolf	golf.cpp	/^void Golf::setGolf(){$/;"	f	class:Golf
+Golf	golf.cpp	/^Golf::Golf(const char * _full_name = "hello_world", int _handicap)$/;"	f	class:Golf
+show	golf.cpp	/^void Golf::show(){$/;"	f	class:Golf
+GOLF_H_	golf.h	/^#define GOLF_H_$/;"	d
+Golf	golf.h	/^class Golf(){$/;"	f

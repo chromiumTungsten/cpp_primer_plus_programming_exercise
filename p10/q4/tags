@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+main	main.cpp	/^int main(){$/;"	f
+SALES	sales.cpp	/^namespace SALES$/;"	n	file:
+Sales	sales.cpp	/^	Sales::Sales(const double ar[], int n){$/;"	f	class:SALES::Sales
+setMMA	sales.cpp	/^	void Sales::setMMA(){$/;"	f	class:SALES::Sales
+setSale	sales.cpp	/^	void Sales::setSale(){$/;"	f	class:SALES::Sales
+show	sales.cpp	/^	void Sales::show(){$/;"	f	class:SALES::Sales
+SALES_H_	sales.h	/^#define SALES_H_$/;"	d
+SALES	sales.h	/^namespace SALES$/;"	n
+Sales	sales.h	/^	class Sales{$/;"	c	namespace:SALES
+QUARTERS	sales.h	/^			const int QUARTERS = 4;$/;"	m	class:SALES::Sales
+sales	sales.h	/^			double sales[QUARTERS];$/;"	m	class:SALES::Sales
+average	sales.h	/^			double average;$/;"	m	class:SALES::Sales
+max	sales.h	/^			double max;$/;"	m	class:SALES::Sales
+min	sales.h	/^			double min;$/;"	m	class:SALES::Sales
+Sales	sales.h	/^			Sales() { sales[0] = 0; average = 0; max = 0 ;min =0 ;}$/;"	f	class:SALES::Sales

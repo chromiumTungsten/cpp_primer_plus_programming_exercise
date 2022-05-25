@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CINLIM	.\string.h	/^		static const int CINLIM = 80;$/;"	m	class:String
+HowMany	.\string.cpp	/^int String::HowMany(){$/;"	f	class:String
+STRING_H_	.\string.h	2;"	d
+String	.\string.cpp	/^String::String(){$/;"	f	class:String
+String	.\string.cpp	/^String::String(const String &st){$/;"	f	class:String
+String	.\string.cpp	/^String::String(const char * s)$/;"	f	class:String
+String	.\string.h	/^class String{$/;"	c
+len	.\string.h	/^		int len;$/;"	m	class:String
+main	.\main.cpp	/^int main(){$/;"	f
+num_strings	.\string.cpp	/^int String::num_strings = 0;$/;"	m	class:String	file:
+num_strings	.\string.h	/^		static int num_strings ;$/;"	m	class:String
+operator =	.\string.cpp	/^String & String::operator=(const String &st)$/;"	f	class:String
+operator =	.\string.cpp	/^String & String::operator=(const char * s){$/;"	f	class:String
+operator []	.\string.cpp	/^char & String::operator[](int i)$/;"	f	class:String
+str	.\string.h	/^		char * str;$/;"	m	class:String
+~String	.\string.cpp	/^String::~String(){$/;"	f	class:String

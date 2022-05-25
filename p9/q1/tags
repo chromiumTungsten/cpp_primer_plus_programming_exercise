@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Len	golf.h	/^const int Len = 40;$/;"	v
+fullname	golf.h	/^	char fullname[Len]; $/;"	m	struct:golf
+golf	golf.h	/^struct golf{$/;"	s
+handicap	golf.cpp	/^void handicap(golf & g, int hc){$/;"	f
+handicap	golf.h	/^	int handicap;$/;"	m	struct:golf
+setgolf	golf.cpp	/^int setgolf(golf & g){$/;"	f
+setgolf	golf.cpp	/^void setgolf(golf & g, const char * name, int hc){$/;"	f
+showgolf	golf.cpp	/^void showgolf(const golf & g){$/;"	f

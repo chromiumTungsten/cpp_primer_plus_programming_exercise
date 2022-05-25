@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+STK	.\main.cpp	/^const int STK = 4;$/;"	v
+STOCK_H_	.\stock.h	2;"	d
+Stock	.\stock.cpp	/^Stock::Stock() {$/;"	f	class:Stock
+Stock	.\stock.cpp	/^Stock::Stock(const Stock& s) {$/;"	f	class:Stock
+Stock	.\stock.cpp	/^Stock::Stock(const char* co, long n, double pr) {$/;"	f	class:Stock
+Stock	.\stock.h	/^class Stock {$/;"	c
+buy	.\stock.cpp	/^void Stock::buy(long num, double price) {$/;"	f	class:Stock
+company	.\stock.h	/^  char* company;$/;"	m	class:Stock
+main	.\main.cpp	/^int main(){$/;"	f
+operator <<	.\stock.cpp	/^friend std::ostream& Stock::operator<<(std::ostream& os, const Stock& s)$/;"	f	class:Stock
+operator <<	.\stock.cpp	/^std::ostream& operator<<(std::ostream& os, const Stock& s) {$/;"	f
+operator =	.\stock.cpp	/^Stock& Stock::operator=(Stock& s) {$/;"	f	class:Stock
+sell	.\stock.cpp	/^void Stock::sell(long num, double price) {$/;"	f	class:Stock
+set_tol	.\stock.h	/^  void set_tol() { total_val = shares * share_val; }$/;"	f	class:Stock
+share_val	.\stock.h	/^  double share_val;$/;"	m	class:Stock
+shares	.\stock.h	/^  int shares;$/;"	m	class:Stock
+topval	.\stock.cpp	/^const Stock& Stock::topval(const Stock& s) const {$/;"	f	class:Stock
+total_val	.\stock.h	/^  double total_val;$/;"	m	class:Stock
+update	.\stock.cpp	/^void Stock::update(double price) {$/;"	f	class:Stock
+~Stock	.\stock.cpp	/^Stock::~Stock() { delete[] company; }$/;"	f	class:Stock

@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CD_H_	.\cd.h	2;"	d
+Cd	.\cd.cpp	/^Cd::Cd()$/;"	f	class:Cd
+Cd	.\cd.h	/^class Cd$/;"	c
+Classic	.\cd.h	/^class Classic : public Cd$/;"	c
+Report	.\cd.cpp	/^void Cd::Report() const$/;"	f	class:Cd
+lable	.\cd.h	/^    char lable[20];$/;"	m	class:Cd
+performer	.\cd.h	/^    char performer[50];$/;"	m	class:Cd
+playtimes	.\cd.h	/^    double playtimes;$/;"	m	class:Cd
+program_list	.\cd.h	/^    char ** program_list;$/;"	m	class:Classic
+selections	.\cd.h	/^    int selections;$/;"	m	class:Cd
+~Cd	.\cd.cpp	/^Cd::~Cd() {}$/;"	f	class:Cd

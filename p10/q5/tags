@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+STACK_H_	stack.h	/^#define STACK_H_$/;"	d
+customer	stack.h	/^struct customer{$/;"	s
+full_name	stack.h	/^	char full_name[35];$/;"	m	struct:customer
+payment	stack.h	/^	double payment;$/;"	m	struct:customer
+Stack	stack.h	/^class Stack{$/;"	c
+dot	stack.h	/^		class dot{$/;"	c	class:Stack
+now	stack.h	/^				customer * now;$/;"	m	class:Stack::dot
+next	stack.h	/^				dot * next;$/;"	m	class:Stack::dot
+dot	stack.h	/^				dot(customer * head){ now = head; }$/;"	f	class:Stack::dot
+dot	stack.h	/^				dot(customer *_now,dot * next){ now = _now; next = _next;}$/;"	f	class:Stack::dot
+getNext	stack.h	/^				dot * getNext(){return *next;}$/;"	f	class:Stack::dot
+getNow	stack.h	/^				customer * getNow(){return *now;}$/;"	f	class:Stack::dot
+count	stack.h	/^		int count;$/;"	m	class:Stack
+dot_now	stack.h	/^		dot* dot_now;$/;"	m	class:Stack
+total_pay	stack.h	/^		double total_pay;$/;"	m	class:Stack
+Stack	stack.h	/^		Stack(){ count =0; total_pay = 0;}$/;"	f	class:Stack

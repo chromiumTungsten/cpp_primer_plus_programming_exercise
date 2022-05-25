@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+QUARTERS	sales.h	/^	const int QUARTERS = 4;$/;"	m	namespace:SALES
+SALES	sales.h	/^namespace SALES$/;"	n
+SALES_H_	sales.h	/^#define SALES_H_$/;"	d
+Sales	sales.h	/^	struct Sales$/;"	s	namespace:SALES
+average	sales.h	/^		double average;$/;"	m	struct:SALES::Sales
+max	sales.h	/^		double max;$/;"	m	struct:SALES::Sales
+min	sales.h	/^		double min;$/;"	m	struct:SALES::Sales
+sales	sales.h	/^		double sales[QUARTERS];$/;"	m	struct:SALES::Sales
+setSales	sales.cpp	/^void setSales(Sales & s){$/;"	f
+setSales	sales.cpp	/^void setSales(Sales & s, const double ar[], int n){$/;"	f
