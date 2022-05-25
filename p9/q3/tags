@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+chaff	chaff.h	/^struct chaff$/;"	s
+dross	chaff.h	/^	char dross[20];$/;"	m	struct:chaff
+setChaff	chaff.cpp	/^void setChaff(chaff & _cha, char * _str, int _slag){$/;"	f
+showChaff	chaff.cpp	/^void showChaff(const chaff & _cha){$/;"	f
+slag	chaff.h	/^	int slag;$/;"	m	struct:chaff
